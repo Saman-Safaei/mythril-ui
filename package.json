@@ -1,0 +1,23 @@
+{
+  "private": false,
+  "scripts": {
+    "build": "turbo run build",
+    "build:packages": "turbo run build --filter=./packages/**",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "publish-packages": "turbo run build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "latest",
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^18.17.5",
+    "@vue/tsconfig": "^0.4.0",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3",
+    "turbo": "latest",
+    "vite": "^4.4.9"
+  },
+  "packageManager": "pnpm@8.6.10",
+  "name": "mythril-ui"
+}

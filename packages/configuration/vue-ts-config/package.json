@@ -1,0 +1,18 @@
+{
+  "name": "@mythril-ui/configs",
+  "version": "0.0.0",
+  "private": true,
+  "author": {
+    "name": "Saman Safaei",
+    "email": "xsamansafaeix@gmail.com"
+  },
+  "main": "src/defineLibraryConfig.js",
+  "types": "src/defineLibraryConfig.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "tsup": "^7.2.0",
+    "vite": "^4.4.9",
+    "vite-plugin-dts": "^3.5.3"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@mythril-ui/box",
+  "version": "0.0.0",
+  "description": "Mythril-UI box component for vue",
+  "main": "dist/build.js",
+  "module": "dist/build.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "run-p type-check build-only",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.json --composite false"
+  },
+  "keywords": [
+    "vue",
+    "hero-ui",
+    "ui",
+    "component",
+    "button",
+    "front-end"
+  ],
+  "author": {
+    "name": "Saman Safaei",
+    "email": "xsamansafaeix@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@mythril-ui/configs": "workspace:^",
+    "npm-run-all": "^4.1.5",
+    "vue-tsc": "^1.8.11"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.11.2",
+    "@mythril-ui/theme": "workspace:^"
+  }
+}
